@@ -3,12 +3,41 @@
 
 <head>
     <meta charSet="utf-8" />
-    <title>Tin Ram</title>
+    <title>Tin Ram Technologies</title>
     <link rel="icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <style>
+        .filter-white{
+            filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(218deg) brightness(106%) contrast(104%);
+        }
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            background: rgb(194,7,54);
+            background: linear-gradient(158deg, rgba(194,7,54,1) 0%, rgba(40,2,19,1) 41%, rgba(68,1,31,1) 69%, rgba(194,7,54,1) 100%);
+            color: white;
+
+            
+            font-family: "Cutive Mono", monospace;
+            font-weight: 400;
+            font-style: normal;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2em;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Tin Ram</h1>
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;">
+        <img src="logo.svg" class="filter-white" style="width: 16em; max-width: 90vw;"/>
+        <h1>TIN RAM<br/>TECHNOLOGIES</h1>
+    </div>
 </body>
 
 </html>
